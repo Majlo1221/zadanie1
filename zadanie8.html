@@ -1,0 +1,27 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var D1_bem=prompt("dzień 1=","");
+var D2_bem=prompt("dzień 2=","");
+var ile;
+var ile_sek;
+ var D1=parseFloat(D1_bem);
+ var D2=parseFloat(D2_bem);
+ if(D1>D2){
+     ile=D1-D2;
+     ile_sek=ile*86400;
+     document.write("Między="+D2+" stycznia a "+D1+" stycznia jest "+ile_sek+"sekund <br>");
+ }
+ else{
+    ile=D2-D1;
+     ile_sek=ile*86400;
+     document.write("Między="+D1+" stycznia a "+D2+" stycznia jest "+ile_sek+"sekund <br>");
+ }
+ 
+ </script>
+ 
+</div>
+
+</body>
+</html>
