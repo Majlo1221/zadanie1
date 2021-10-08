@@ -18,20 +18,22 @@ var ile_razem;
 
 
  if(D1>D2){
-     ile=D1-D2;
+     ile=D1-D2-1;
      ile_sek=ile*86400;
      
-     ile_sek_g=(24-G1)*3600;
-     
-     ile_razem=(ile_sek_g)+(ile_sek);
-     document.write("Między="+D2+" stycznia a "+D1+" stycznia jest "+ile_razem+" sekund <br>");
+     ile_sek_g=G1*3600;
+     ile_sek_g1=(24-G2)*3600;
+
+     ile_razem=ile_sek_g+ile_sek+ile_sek_g1;
+     document.write("Między "+D1+" stycznia godzina "+G1+ ", a "+D2+" stycznia godzina " +G2+ " jest "+ile_razem+" sekund <br>");
  }
  else{
-    ile=D2-D1;
+    ile=D2-D1-1;
      ile_sek=ile*86400;
-     ile_sek_g2=G2*3600
-     ile_razem=ile_sek_g+ile_sek;
-     document.write("Między="+D1+" stycznia a "+D2+" stycznia jest "+ile_razem+" sekund <br>");
+     ile_sek_g1=(24-G1)*3600
+     ile_sek_g2=G2*3600;
+     ile_razem=ile_sek_g2+ile_sek+ile_sek_g1;
+     document.write("Między "+D1+" stycznia godzina "+G1+ ", a "+D2+" stycznia godzina " +G2+ " jest "+ile_razem+" sekund <br>");
  }
   
  </script>
