@@ -1,0 +1,36 @@
+<html>
+<head>
+    <script type="text/javascript">
+ 
+    
+function tank(kraj, czasy, predkosc, pancerz, typ, model, zaloga, waga) 
+{
+this.kraj=kraj;
+this.czasy=czasy;
+this.predkosc=predkosc;
+this.pancerz=pancerz;
+this.typ=typ;
+this.model=model;
+this.zaloga=zaloga;
+this.waga=waga;
+}
+Lekki = new tank("Francja","I wojna światowa","6-7,7km/h ","Walcowane płyty pancerne","Czołg Lekki","Renault FT-17","2-osobowy","6890 kg");
+Lekki2 = new tank("Polska","II wojna światowa","37 km/h","Płyty pancerne","Czołg Lekki","7 TP","3-osobowy", "9900 kg");
+Sredni = new tank("Stany Zjednoczone","II wojna światowa", "39 km/h", "Wzmocniony pancerz pancerny", "Czołg Średni", "Sherman M4A1", "5-osobowy", "31 500kg");
+Sredni2 = new tank("Japonia", "II wojna światowa", "38 km/h", "8-25mm pancerz pancerny", "Czołg Średni", "97 Chi-Ha", "4-osobowy", "15 000 kg");
+Ciezki = new tank("Niemcy", "II wojna światowa","12-20km/h", "150-360mm", "Czołg super ciężki", "Panzer kpw 8 Mous", "6 osobowy", "188 000kg");
+
+document.write( "Państwo: "+  Lekki.kraj+", Czasy: "+ Lekki.czasy +", Predkosc: "+ Lekki.predkosc+", Pancerz: "+ Lekki.pancerz + ", Typ czołgu: "+Lekki.typ+ ", Model: "+Lekki.model+ ", Zaloga: "+Lekki.zaloga+ ", Waga: "+Lekki.waga+"<br>");
+document.write("Państwo: "+  Lekki2.kraj+", Czasy: "+ Lekki2.czasy +", Predkosc: "+ Lekki2.predkosc+", Pancerz: "+ Lekki2.pancerz + ", Typ czołgu: "+Lekki2.typ+ ", Model: "+Lekki2.model+ ", Zaloga: "+Lekki2.zaloga+ ", Waga: "+Lekki2.waga+"<br>");
+document.write("Państwo: "+  Sredni.kraj+", Czasy: "+ Sredni.czasy +", Predkosc: "+ Sredni.predkosc+", Pancerz: "+ Sredni.pancerz + ", Typ czołgu: "+Sredni.typ+ ", Model: "+Sredni.model+ ", Zaloga: "+Sredni.zaloga+ ", Waga: "+Sredni.waga+"<br>");
+document.write("Państwo: "+  Sredni2.kraj+", Czasy: "+ Sredni2.czasy +", Predkosc: "+ Sredni2.predkosc+", Pancerz: "+ Sredni2.pancerz + ", Typ czołgu: "+Sredni2.typ+ ", Model: "+Sredni2.model+ ", Zaloga: "+Sredni2.zaloga+ ", Waga: "+Sredni2.waga+"<br>");
+document.write("Państwo: "+  Ciezki.kraj+", Czasy: "+ Ciezki.czasy +", Predkosc: "+ Ciezki.predkosc+", Pancerz: "+ Ciezki.pancerz + ", Typ czołgu: "+Ciezki.typ+ ", Model: "+Ciezki.model+ ", Zaloga: "+Ciezki.zaloga+ ", Waga: "+Ciezki.waga+"<br>");
+    </script>
+ 
+  
+</head>
+<body>
+   
+</body>
+ 
+</html>
