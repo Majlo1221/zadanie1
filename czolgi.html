@@ -1,0 +1,62 @@
+<html>
+<head>
+    <script type="text/javascript">
+ 
+    
+function tank(kraj, czasy, predkosc, pancerz, typ, model, zaloga, waga) 
+{
+this.kraj=kraj;
+this.czasy=czasy;
+this.predkosc=predkosc;
+this.pancerz=pancerz;
+this.typ=typ;
+this.model=model;
+this.zaloga=zaloga;
+this.waga=waga;
+}
+Lekki = new tank("Francja","I wojna światowa","6-7,7km/h ","Walcowane płyty pancerne","Czołg Lekki","Renault FT-17","2-osobowy","6890 kg");
+Lekki2 = new tank("Polska","II wojna światowa","37 km/h","Płyty pancerne","Czołg Lekki","7 TP","3-osobowy", "9900 kg");
+Sredni = new tank("Stany Zjednoczone","II wojna światowa", "39 km/h", "Wzmocniony pancerz pancerny", "Czołg Średni", "Sherman M4A1", "5-osobowy", "31 500kg");
+Sredni2 = new tank("Japonia", "II wojna światowa", "38 km/h", "8-25mm pancerz pancerny", "Czołg Średni", "97 Chi-Ha", "4-osobowy", "15 000 kg");
+Ciezki = new tank("Niemcy", "II wojna światowa","12-20km/h", "150-360mm", "Czołg super ciężki", "Panzer kpw 8 Mous", "6 osobowy", "188 000kg");
+
+function koty(kraj1, rasa, imie, wiek, kolor, waga1){
+this.kraj1=kraj1;
+this.rasa=rasa;
+this.imie=imie;
+this.wiek=wiek;
+this.kolor=kolor;
+this.waga1=waga1;
+}
+
+Sfinks = new koty("Kanada","Sfinks","Łysol","5","rożowo-szary","2kg");
+Perski = new koty("Iran","Perski","Puszek","3","biały","3,5kg");
+Devon = new koty("Anglia","Devon rex", "Pampa", "4", "brązowy", "2,5kg");
+Munchkin = new koty("Stany Zjednoczone", "Munchkin", "Fono", "6", "biały", "3,5kg");
+Singapurski = new koty("Singapur", "Kot Singapurski","Sik", "5", "czarny", "4,5kg");   
+
+document.write( "Czołg z: "+  Lekki.kraj+", z czasów: "+ Lekki.czasy +", o predkosci: "+ Lekki.predkosc+", o Pancerzu: "+ Lekki.pancerz + ", Typ czołgu: "+Lekki.typ+ ", Model: "+Lekki.model+ ", Zaloga: "+Lekki.zaloga+ ", o Wadze: "+Lekki.waga+"<br>");
+document.write("Należy do kota z: "+Sfinks.kraj1+", Rasa: "+ Sfinks.rasa +", Imie: "+ Sfinks.imie+", Wiek: "+ Sfinks.wiek + ", Kolor: "+Sfinks.kolor+ ", Waga: "+Sfinks.waga1+ "<br><br>"); 
+
+document.write("Czołg z: "+  Lekki2.kraj+", z czasów: "+ Lekki2.czasy +", o predkosci: "+ Lekki2.predkosc+", o Pancerzu: "+ Lekki2.pancerz + ", Typ czołgu: "+Lekki2.typ+ ", Model: "+Lekki2.model+ ", Zaloga: "+Lekki2.zaloga+ ", o Wadze: "+Lekki2.waga+"<br>");
+document.write("Należy do kota z: "+Perski.kraj1+", Rasa: "+ Perski.rasa +", Imie: "+ Perski.imie+", Wiek: "+ Perski.wiek + ", Kolor: "+Perski.kolor+ ", Waga: "+Perski.waga1+ "<br><br>"); 
+
+document.write("Czołg z: "+  Sredni.kraj+", z czasów: "+ Sredni.czasy +", o predkosci: "+ Sredni.predkosc+", o Pancerzu: "+ Sredni.pancerz + ", Typ czołgu: "+Sredni.typ+ ", Model: "+Sredni.model+ ", Zaloga: "+Sredni.zaloga+ ", o Wadze: "+Sredni.waga+"<br>");
+document.write("Należy do kota z: "+Devon.kraj1+", Rasa: "+ Devon.rasa +", Imie: "+ Devon.imie+", Wiek: "+ Devon.wiek + ", Kolor: "+Devon.kolor+ ", Waga: "+Devon.waga1+ "<br><br>"); 
+
+document.write("Czołg z: "+  Sredni2.kraj+", z czasów: "+ Sredni2.czasy +", o predkosci: "+ Sredni2.predkosc+", o Pancerzu: "+ Sredni2.pancerz + ", Typ czołgu: "+Sredni2.typ+ ", Model: "+Sredni2.model+ ", Zaloga: "+Sredni2.zaloga+ ", o Wadze: "+Sredni2.waga+"<br>");
+document.write("Należy do kota z: "+Munchkin.kraj1+", Rasa: "+ Munchkin.rasa +", Imie: "+Munchkin.imie+", Wiek: "+ Munchkin.wiek + ", Kolor: "+Munchkin.kolor+ ", Waga: "+Munchkin.waga1+ "<br><br>"); 
+
+document.write("Czołg z: "+  Ciezki.kraj+", z czasów: "+ Ciezki.czasy +", o predkosci: "+ Ciezki.predkosc+", o Pancerzu: "+ Ciezki.pancerz + ", Typ czołgu: "+Ciezki.typ+ ", Model: "+Ciezki.model+ ", Zaloga: "+Ciezki.zaloga+ ", o Wadze: "+Ciezki.waga+"<br>");
+document.write("Należy do kota z: "+Singapurski.kraj1+", Rasa: "+ Singapurski.rasa +", Imie: "+ Singapurski.imie+", Wiek: "+ Singapurski.wiek + ", Kolor: "+Singapurski.kolor+ ", Waga: "+Singapurski.waga1+ "<br><br>"); 
+
+
+</script>
+ 
+  
+</head>
+<body>
+   
+</body>
+ 
+</html>
