@@ -1,34 +1,31 @@
-<HTML>
-    <head>
-        <title>Zadanie1a</title>
-        <script type="text/javascript">
-        function okno_zamknij_bembenista1()
-        {
-            window.close()
-        }
-        function WinOpen_bembenista2()
-        {
-            window.open("zdj1.html","okienko","toolbar=no,directories=no,menubar=no,height=400,width=160,top=50,left=100");
-        }
-        function WinOpen_bembenista3()
-        {
-            window.open("zdj2.html","okienko","toolbar=no,directories=no,menubar=no,height=400,width=160,top=50,left=1500");
-        }
-        function WinOpen_bembenista4()
-        {
-            window.open("zdj3.html","okienko","toolbar=no,directories=no,menubar=no,height=400,width=160,top=1000,left=50");
-        }
-        function WinOpen_bembenista5()
-        {
-            window.open("zdj4.html","okienko","toolbar=no,directories=no,menubar=no,height=400,width=160,top=1000,left=1500");
-        }
-        </script>
-    </head>
-    <body>
-        <input type="button" value="grafika1" onclick="WinOpen_bembenista2()"/>
-        <input type="button" value="grafika2" onclick="WinOpen_bembenista3()"/>
-        <input type="button" value="grafika3" onclick="WinOpen_bembenista4()"/>
-        <input type="button" value="grafika4" onclick="WinOpen_bembenista5()"/><br>
-        <input type="button" value="zamknij okno" onclick="okno_zamknij_bembenista1()"/>
-    </body>
-    </HTML>
+<html>
+<head>
+    <script type="text/javascript">
+ 
+    
+function uczen(imie, nazwisko, klasa, oddzial) 
+{
+this.imie=imie;
+this.nazwisko=nazwisko;
+this.klasa=klasa;
+this.oddzial=oddzial;
+}
+Pierwszy = new uczen("Marian","Pierw","3 ","C");
+Drugi = new uczen("Wojciech","Walag","4","D");
+Trzeci = new uczen("Kasjusz","Kitucha", "4", "F");
+Czwarty = new uczen("Paweł", "Knyc", "2", "K");
+
+
+alert( "imie: "+  Pierwszy.imie+", Nazwisko: "+ Pierwszy.nazwisko +", Klasa: "+ Pierwszy.klasa+", Oddział: "+ Pierwszy.oddzial +"");
+alert( "imie: "+  Drugi.imie+", Nazwisko: "+ Drugi.nazwisko +", Klasa: "+ Drugi.klasa+", Oddział: "+ Drugi.oddzial +"");
+alert( "imie: "+  Trzeci.imie+", Nazwisko: "+ Trzeci.nazwisko +", Klasa: "+ Trzeci.klasa+", Oddział: "+Trzeci.oddzial +"");
+alert( "imie: "+  Czwarty.imie+", Nazwisko: "+ Czwarty.nazwisko +", Klasa: "+ Czwarty.klasa+", Oddział: "+ Czwarty.oddzial +"");
+    </script>
+ 
+  
+</head>
+<body>
+   
+</body>
+ 
+</html>
