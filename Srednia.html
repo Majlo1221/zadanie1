@@ -1,0 +1,38 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+    const tab=[10];
+    for(var i=0; i<5; i++){
+        tab[i]=prompt("Ocena"+i+":","")
+    }
+    for(var i=5; i<10; i++){
+        tab[i]=prompt("Srednia"+i+":","")
+    }
+    for(var i=0; i<5; i++){
+        document.write("Ocena:"+tab[i]+"<br>");
+    }
+    for(var i=5; i<10; i++){
+        document.write("Srednia:"+tab[i]+"<br>")
+    }
+var srednia;
+    
+        var o1=parseFloat(tab[0]);
+        var o2=parseFloat(tab[1]);
+        var o3=parseFloat(tab[2]);
+        var o4=parseFloat(tab[3]);
+        var o5=parseFloat(tab[4]);
+        var s1=parseFloat(tab[5]);
+        var s2=parseFloat(tab[6]);
+        var s3=parseFloat(tab[7]);
+        var s4=parseFloat(tab[8]);
+        var s5=parseFloat(tab[9]);
+    
+srednia=((o1*s1)+(o2*s2)+(o3*s3)+(o4*s4)+(o5*s5))/(s1+s2+s3+s4+s5);
+
+ document.write("Srednia ważona to:" +srednia+ "<br>");
+  </script>
+</div>
+
+</body>
+</html>
